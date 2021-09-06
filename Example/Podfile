@@ -1,0 +1,6 @@
+use_frameworks!
+target 'PayNow_Tests' do
+  pod 'PayNow', :path => '../'
+  
+  
+end
