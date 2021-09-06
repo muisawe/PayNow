@@ -1,0 +1,6 @@
+framework module PayNow {
+  umbrella header "PayNow-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,16 @@
+PODS:
+  - PayNow (0.1.0)
+
+DEPENDENCIES:
+  - PayNow (from `../`)
+
+EXTERNAL SOURCES:
+  PayNow:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  PayNow: c24f5192737786f6ed5614622bb101ee1fa92cad
+
+PODFILE CHECKSUM: 2c709a08d5b4b542ff656834b2b704d24ecd5b4c
+
+COCOAPODS: 1.10.1

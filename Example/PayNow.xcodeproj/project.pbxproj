@@ -13,12 +13,12 @@
 
 /* Begin PBXFileReference section */
 		1BCFADE4DFC09AF9CD5A6677 /* Pods_PayNow_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PayNow_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		43795E48161164045B014B32 /* PayNow.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = PayNow.podspec; path = ../PayNow.podspec; sourceTree = "<group>"; };
-		43DC664CDEDC842A6AEE1EA3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		43795E48161164045B014B32 /* PayNow.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = PayNow.podspec; path = ../PayNow.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		43DC664CDEDC842A6AEE1EA3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		607FACE51AFB9204008FA782 /* PayNow_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PayNow_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		ABCB2158542BB290C5ED213C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		ABCB2158542BB290C5ED213C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		B4362D34EADAA46346AD253D /* Pods-PayNow_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PayNow_Tests.debug.xcconfig"; path = "Target Support Files/Pods-PayNow_Tests/Pods-PayNow_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		D13DD5D41974C430888B2148 /* Pods-PayNow_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PayNow_Tests.release.xcconfig"; path = "Target Support Files/Pods-PayNow_Tests/Pods-PayNow_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -41,7 +41,6 @@
 				B4362D34EADAA46346AD253D /* Pods-PayNow_Tests.debug.xcconfig */,
 				D13DD5D41974C430888B2148 /* Pods-PayNow_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -131,10 +130,6 @@
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = CocoaPods;
 				TargetAttributes = {
-					607FACCF1AFB9204008FA782 = {
-						CreatedOnToolsVersion = 6.3.1;
-						LastSwiftMigration = 0900;
-					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
 						LastSwiftMigration = 0900;
@@ -147,6 +142,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

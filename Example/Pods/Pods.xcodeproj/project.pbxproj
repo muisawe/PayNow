@@ -1,0 +1,617 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		741EF3B5EA103267972E6F0FC3FBFDFB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		768D2CF64781C1FE7C11742827555C54 /* PayNow-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 94C77E3635F9CAE715872F52B2F7BAE4 /* PayNow-dummy.m */; };
+		8155F11126E6B1550093AE7B /* PayNow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8155F11026E6B1550093AE7B /* PayNow.swift */; };
+		9B975E088315D0A3D194F15022348689 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		C7CA3DF8774B45C60E9DD834FD28B31B /* Pods-PayNow_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 46FE3FB4B9668655D66937AA33455818 /* Pods-PayNow_Tests-dummy.m */; };
+		F0FE79481DC47AAC3F96F77DA9DA542B /* Pods-PayNow_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FE45DDDB5CDD7ACF51153B79B6C85250 /* Pods-PayNow_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FEF1BC53F8E5D4CA0CF39AD506D32297 /* PayNow-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C133BC0BE9650AD30B8912EA744733CA /* PayNow-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5879815EAAC04E30DE988E032955D9F1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 42ADB9907008AC1E3A22F2BA4749B8E4;
+			remoteInfo = PayNow;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0142FC9698821B1C511D4CA26B77B8DD /* PayNow.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = PayNow.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		179F3501341B55418A0244F922D20FF7 /* PayNow.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PayNow.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F4E5AFB54BCAD7F4A4558F36AC957EF /* Pods-PayNow_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PayNow_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		3C78681F2B015BEA87E5D40005256FB0 /* Pods-PayNow_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PayNow_Tests.modulemap"; sourceTree = "<group>"; };
+		46FE3FB4B9668655D66937AA33455818 /* Pods-PayNow_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PayNow_Tests-dummy.m"; sourceTree = "<group>"; };
+		5113C01D94345C59A1B27958012ECF7B /* PayNow.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PayNow.modulemap; sourceTree = "<group>"; };
+		543910481CFB4EE8DA83BFDA24B4FC67 /* Pods-PayNow_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PayNow_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		5C21D915CA57E09E958994699754D51E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		5DEE14C9A0C5776DF4B99EF6354D06E2 /* Pods-PayNow_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PayNow_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5F4F6D934392DD4995D0B87560DD3A9B /* PayNow-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PayNow-prefix.pch"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		8155F11026E6B1550093AE7B /* PayNow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayNow.swift; sourceTree = "<group>"; };
+		82164A0672075E46BE1D13302B8A8A87 /* Pods_PayNow_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PayNow_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		88B6D61C265F1DBC16EA2537EB6AD5C6 /* Pods-PayNow_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PayNow_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		94C77E3635F9CAE715872F52B2F7BAE4 /* PayNow-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PayNow-dummy.m"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		ACF72971FCC6DD3C9056775DEFF2D941 /* Pods-PayNow_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PayNow_Tests-Info.plist"; sourceTree = "<group>"; };
+		C133BC0BE9650AD30B8912EA744733CA /* PayNow-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PayNow-umbrella.h"; sourceTree = "<group>"; };
+		CE87450F18D12C575203E1674C01EB86 /* PayNow-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "PayNow-Info.plist"; sourceTree = "<group>"; };
+		D33A7AA081487F4BACFE8092F94E4AB4 /* PayNow.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PayNow.release.xcconfig; sourceTree = "<group>"; };
+		D61FE693C8BCC8B2118B44356C6EE201 /* PayNow.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PayNow.debug.xcconfig; sourceTree = "<group>"; };
+		FABB43A09CE224930C535BD04EB76E3E /* Pods-PayNow_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PayNow_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		FCB55E0E6252281A5DE58F16305DCBEF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		FE45DDDB5CDD7ACF51153B79B6C85250 /* Pods-PayNow_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PayNow_Tests-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4FA24FC19FD1B16012541230FFECF1F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B975E088315D0A3D194F15022348689 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		870A8DCE9404AD78EE7445EFF7DAD856 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				741EF3B5EA103267972E6F0FC3FBFDFB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		358A6DE5569C41B2DC325615AEC43C4D /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6BB30098475E79A9562EF2B42E135BE4 /* Pods-PayNow_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		46C648E0A1FCD0A1D851A92F1DB35A67 /* PayNow */ = {
+			isa = PBXGroup;
+			children = (
+				8155F10F26E6B11C0093AE7B /* Classes */,
+				5D75996C9F7F4CFFEA4F7C09457188CA /* Pod */,
+				A86FFCE24A72EE2DFE359E3F8C3B4778 /* Support Files */,
+			);
+			name = PayNow;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		4A8CF11EA1C9216E555F1CB6CE49C011 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				46C648E0A1FCD0A1D851A92F1DB35A67 /* PayNow */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		4C74A716F3AD24550D0637E54C238123 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				179F3501341B55418A0244F922D20FF7 /* PayNow.framework */,
+				82164A0672075E46BE1D13302B8A8A87 /* Pods_PayNow_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		5D75996C9F7F4CFFEA4F7C09457188CA /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				FCB55E0E6252281A5DE58F16305DCBEF /* LICENSE */,
+				0142FC9698821B1C511D4CA26B77B8DD /* PayNow.podspec */,
+				5C21D915CA57E09E958994699754D51E /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		6BB30098475E79A9562EF2B42E135BE4 /* Pods-PayNow_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				3C78681F2B015BEA87E5D40005256FB0 /* Pods-PayNow_Tests.modulemap */,
+				5DEE14C9A0C5776DF4B99EF6354D06E2 /* Pods-PayNow_Tests-acknowledgements.markdown */,
+				543910481CFB4EE8DA83BFDA24B4FC67 /* Pods-PayNow_Tests-acknowledgements.plist */,
+				46FE3FB4B9668655D66937AA33455818 /* Pods-PayNow_Tests-dummy.m */,
+				1F4E5AFB54BCAD7F4A4558F36AC957EF /* Pods-PayNow_Tests-frameworks.sh */,
+				ACF72971FCC6DD3C9056775DEFF2D941 /* Pods-PayNow_Tests-Info.plist */,
+				FE45DDDB5CDD7ACF51153B79B6C85250 /* Pods-PayNow_Tests-umbrella.h */,
+				88B6D61C265F1DBC16EA2537EB6AD5C6 /* Pods-PayNow_Tests.debug.xcconfig */,
+				FABB43A09CE224930C535BD04EB76E3E /* Pods-PayNow_Tests.release.xcconfig */,
+			);
+			name = "Pods-PayNow_Tests";
+			path = "Target Support Files/Pods-PayNow_Tests";
+			sourceTree = "<group>";
+		};
+		8155F10F26E6B11C0093AE7B /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				8155F11026E6B1550093AE7B /* PayNow.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		A86FFCE24A72EE2DFE359E3F8C3B4778 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5113C01D94345C59A1B27958012ECF7B /* PayNow.modulemap */,
+				94C77E3635F9CAE715872F52B2F7BAE4 /* PayNow-dummy.m */,
+				CE87450F18D12C575203E1674C01EB86 /* PayNow-Info.plist */,
+				5F4F6D934392DD4995D0B87560DD3A9B /* PayNow-prefix.pch */,
+				C133BC0BE9650AD30B8912EA744733CA /* PayNow-umbrella.h */,
+				D61FE693C8BCC8B2118B44356C6EE201 /* PayNow.debug.xcconfig */,
+				D33A7AA081487F4BACFE8092F94E4AB4 /* PayNow.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/PayNow";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				4A8CF11EA1C9216E555F1CB6CE49C011 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				4C74A716F3AD24550D0637E54C238123 /* Products */,
+				358A6DE5569C41B2DC325615AEC43C4D /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		4BD1C3EF0067733F3E8E6AC025DF36A4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEF1BC53F8E5D4CA0CF39AD506D32297 /* PayNow-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72A38BDD2CAA80CBC411F1A05BAAE358 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0FE79481DC47AAC3F96F77DA9DA542B /* Pods-PayNow_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		42ADB9907008AC1E3A22F2BA4749B8E4 /* PayNow */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB6D70C7D33930BEB2C3C89D9FDCA071 /* Build configuration list for PBXNativeTarget "PayNow" */;
+			buildPhases = (
+				4BD1C3EF0067733F3E8E6AC025DF36A4 /* Headers */,
+				47588F42B6DFD516D52904AC952893E1 /* Sources */,
+				870A8DCE9404AD78EE7445EFF7DAD856 /* Frameworks */,
+				D703C725072EC475B94C842B26076A69 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PayNow;
+			productName = PayNow;
+			productReference = 179F3501341B55418A0244F922D20FF7 /* PayNow.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		738B00E53E75EE103AC1A8B58DE849AF /* Pods-PayNow_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 31D466FCD5EF82C4D4A6033912907BAF /* Build configuration list for PBXNativeTarget "Pods-PayNow_Tests" */;
+			buildPhases = (
+				72A38BDD2CAA80CBC411F1A05BAAE358 /* Headers */,
+				CC05EF7244B32C1543E962BE72676096 /* Sources */,
+				4FA24FC19FD1B16012541230FFECF1F7 /* Frameworks */,
+				2B5D8919B3932DBB9667449461F61EEA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BD15D79CBFCD4716C4188E68265605A1 /* PBXTargetDependency */,
+			);
+			name = "Pods-PayNow_Tests";
+			productName = "Pods-PayNow_Tests";
+			productReference = 82164A0672075E46BE1D13302B8A8A87 /* Pods_PayNow_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+				TargetAttributes = {
+					42ADB9907008AC1E3A22F2BA4749B8E4 = {
+						LastSwiftMigration = 1250;
+					};
+				};
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 4C74A716F3AD24550D0637E54C238123 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				42ADB9907008AC1E3A22F2BA4749B8E4 /* PayNow */,
+				738B00E53E75EE103AC1A8B58DE849AF /* Pods-PayNow_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2B5D8919B3932DBB9667449461F61EEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D703C725072EC475B94C842B26076A69 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		47588F42B6DFD516D52904AC952893E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				768D2CF64781C1FE7C11742827555C54 /* PayNow-dummy.m in Sources */,
+				8155F11126E6B1550093AE7B /* PayNow.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC05EF7244B32C1543E962BE72676096 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7CA3DF8774B45C60E9DD834FD28B31B /* Pods-PayNow_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BD15D79CBFCD4716C4188E68265605A1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PayNow;
+			target = 42ADB9907008AC1E3A22F2BA4749B8E4 /* PayNow */;
+			targetProxy = 5879815EAAC04E30DE988E032955D9F1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		11107443E914F5FCD24BACE93C64021C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D61FE693C8BCC8B2118B44356C6EE201 /* PayNow.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PayNow/PayNow-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PayNow/PayNow-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PayNow/PayNow.modulemap";
+				PRODUCT_MODULE_NAME = PayNow;
+				PRODUCT_NAME = PayNow;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		354ACBDEE997286609B44F2D99BB1C57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FABB43A09CE224930C535BD04EB76E3E /* Pods-PayNow_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PayNow_Tests/Pods-PayNow_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PayNow_Tests/Pods-PayNow_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		431BA2B8298F0EE71735B9E0114E1955 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		50F7A805C2C7FA5B0928938665AAE9AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D33A7AA081487F4BACFE8092F94E4AB4 /* PayNow.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PayNow/PayNow-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PayNow/PayNow-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PayNow/PayNow.modulemap";
+				PRODUCT_MODULE_NAME = PayNow;
+				PRODUCT_NAME = PayNow;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5B3D7C3C0AD977AE2AE567C83C3D503B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88B6D61C265F1DBC16EA2537EB6AD5C6 /* Pods-PayNow_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PayNow_Tests/Pods-PayNow_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PayNow_Tests/Pods-PayNow_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		79759604D78320E712558F49DF19AA9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		31D466FCD5EF82C4D4A6033912907BAF /* Build configuration list for PBXNativeTarget "Pods-PayNow_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B3D7C3C0AD977AE2AE567C83C3D503B /* Debug */,
+				354ACBDEE997286609B44F2D99BB1C57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79759604D78320E712558F49DF19AA9F /* Debug */,
+				431BA2B8298F0EE71735B9E0114E1955 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB6D70C7D33930BEB2C3C89D9FDCA071 /* Build configuration list for PBXNativeTarget "PayNow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11107443E914F5FCD24BACE93C64021C /* Debug */,
+				50F7A805C2C7FA5B0928938665AAE9AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
